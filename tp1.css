@@ -1,0 +1,139 @@
+
+
+
+
+.nav{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    background-color: darkseagreen;
+    
+    
+}
+
+.nav li{
+    float: left;
+    margin: 15px;
+}
+
+.nav li a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}    
+
+.aside ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: ;
+}
+
+.aside ul li{
+    margin-bottom: 7%;
+    
+
+}
+
+.aside ul{
+    list-style-type: none;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: x-large;
+}
+main{
+    float: right;
+    display: inline-block;
+    width: 79%;
+    
+}
+aside{
+    display: inline-block;
+    width: 20%;
+
+}
+footer{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+
+
+.Contact {
+    border-color: black;
+    position: relative;
+    display: inline-block;
+    margin-left: 21%;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+
+}
+
+/*p{
+    font-size: 1em;
+    line-height: 1.5em;
+}*/
+
+/*a{
+    text-decoration: none;
+    color: #000;
+}*/
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+
+section h2{
+    margin: 20px 0;
+    width: 90%;
+
+}
+
+section > div{
+    width: 90%;
+
+}
+
+.formation{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+
+.formation-nom{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 20%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.formation-nom h3{
+    /*font-size: 1.2em;*/
+
+}
+
+.formation-nom h4{
+    /*font-size: 1em;
+    font-weight: normal;*/
+}
+
+.photo{
+    width: 30%;
+}
